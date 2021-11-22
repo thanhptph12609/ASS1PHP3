@@ -12,7 +12,7 @@
                   <label for="">travel_fee</label>
                   <input type="number" name="travel_fee" value="{{$model->travel_fee}}" class="form-control" placeholder="" class="form-control">
                   <label for="">plate_image</label>
-                  <input type="file" name="plate_image" value="{{$model->travel_fee}}" class="form-control" placeholder="" class="form-control">
+                  <input type="file" name="plate_image" value="{{$model->plate_image}}" class="form-control" placeholder="" class="form-control">
                 </div>  
             </div>
             <div >

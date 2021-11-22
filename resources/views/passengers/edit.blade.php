@@ -14,8 +14,10 @@
                         @endforeach
                     </select>
                   <label for="">travel_time</label>
-                  <input type="datetime-local" name="travel_time" class="form-control" placeholder="" value="{{$model->travel_time}}">
-                  <label for="">avatar</label>
+                <input type="datetime-local" name="travel_time" 
+                value="{{date('Y-m-d\TH:i', strtotime($model->travel_time))}}" class="form-control" placeholder="">
+                    
+                <label for="">avatar</label>
                   <input type="file" name="avatar" value="{{$model->avatar}}" class="form-control" placeholder="">  
                 </div>
                 
